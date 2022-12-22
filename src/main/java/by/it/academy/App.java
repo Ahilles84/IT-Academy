@@ -11,7 +11,7 @@ public class App {
         try(InputStream stream = App.class.getClassLoader().getResourceAsStream("config.properties")){
             properties.load(stream);
             for (Map.Entry<Object, Object> property: properties.entrySet()) {
-                System.out.println("property = " + property);
+                System.out.println("property: " + property);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
