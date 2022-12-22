@@ -12,6 +12,7 @@ public class App {
             properties.load(stream);
             for (Map.Entry<Object, Object> property: properties.entrySet()) {
                 System.out.println("property: " + property);
+                System.out.println("I'm Dev!");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
