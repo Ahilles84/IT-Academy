@@ -8,10 +8,7 @@
     <artifactId>weather</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>internalProject</module>
-    </modules>
-
+    
     <name>weather</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
