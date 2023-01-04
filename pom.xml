@@ -6,7 +6,7 @@
 
     <groupId>by.it.academy</groupId>
     <artifactId>weather</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <name>weather</name>
